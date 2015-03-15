@@ -1,0 +1,616 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Brainbow development-You imagine. We develop</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Template by Dry Themes" />
+        <meta name="keywords" content="HTML, CSS, JavaScript, PHP, Minimal Awesomness" />
+        <meta name="author" content="DryThemes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link rel="shortcut icon" href="images/favicon.png" />    
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Montserrat:400,700' rel='stylesheet' type='text/css'>	
+      <!--  <link type="text/css" rel="stylesheet" href="css/clear.css"/>
+        <link type="text/css" rel="stylesheet" href="css/carouFredSel.css"/>
+        <link type="text/css" rel="stylesheet" href="css/supersized.css"/>
+        <link type="text/css" rel="stylesheet" href="css/common.css"/>
+        <link type="text/css" rel="stylesheet" href="css/columns.css"/>	
+        <link type="text/css" rel="stylesheet" href="css/prettyPhoto.css"/>	
+		<link type="text/css" rel="stylesheet" href="css/accordion-tabs.css"/>	
+
+        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+        <link type="text/css" rel="stylesheet" href="css/isotope.css"/>
+        <link type="text/css" rel="stylesheet" href="css/colors.css"/>
+        <link type="text/css" rel="stylesheet" href="css/responsive.css"/> -->
+        <link type="text/css" rel="stylesheet" href="css/combined.min.css"/>
+
+        <!--[if lt IE 9]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->			
+		
+    </head>
+    <body>
+		
+		<!--Loading gif -->
+        <table class="doc-loader">
+            <tr>
+                <td>
+                  <!--  <img src="images/ajax-document-loader.gif" alt="Loading..." />  -->
+                    <div class="spinner"></div> 
+                </td>
+            </tr>
+        </table>	
+	
+		<!--Navigation Menu-->
+        <div id="main-menu" class="main-menu">		
+            <div class="center-relative menu-holder">
+				<div class="menu-logo left"><img src="images/menu_logo.png" alt="Sensa"/></div>
+                <ul class="right montserrat-font">
+                    <li class="active"><a href="#dry-home">HELLO</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">FOLIO</a></li>                    
+                    <li><a href="#about">ABOUT</a></li>
+				<!--	<li><a href="#blog">BLOG</a></li> -->
+                    <li><a href="#contact">CONTACT</a></li>
+                   <!-- <li><a href="external.html">FEATURES</a></li>  -->
+                </ul>
+				<div class="clear"></div>
+            </div>		
+        </div>
+		
+        <!--Home-->
+        <div id="dry-home" class="home section relative">   			        
+		<div class="block content-960 center-relative">
+            
+		<!-- Home text slider -->		
+			<h1 class="big-tittle montserrat-font top-120">BRAINBOW <br />development</h1>			
+		   <h2 class="big-tittle-description white-text top-30">We are a full service digital agency from Greece. We design and build websites, applications, mobile solutions and other awesome digital media.</h2>				   				  
+                
+           <div class="top-60">
+              <a href="#contact" class="button green slow-scroll">Contact Us Now!</a>
+           </div>	
+				
+            </div>
+			
+			<!--Background Slider Navigation-->			
+			<ul id="slide-list"></ul>
+			<!-- Background Slider Holder -->
+			<ul id="supersized"></ul>
+        </div>
+		
+        <!--Services-->
+        <div id="services" class="clear services section block">
+          <div class="block content-960 center-relative">
+			<h2 class="section-title montserrat-font">WHAT<br/>WE<br/>DO</h2>
+			<div class="title-separator"></div> 
+       	
+                <div class="one_third">
+					<div class="service-item">
+                    <img class="block" src="images/icon_external_05.png" alt="" />								
+                    <h4 class="service-item-title">Design.</h4>
+                    <p class="service-item-content">
+                      We help you design your web or mobile app just they way you imagine it.
+                    </p>
+                    	<br>				
+                  <div class="progress_bar">
+			               <div class="progress_bar_field_holder">
+                   <div class="progress_bar_title">UI/UX</div>               
+                  <div class="progress_bar_field_perecent" style="width:75%;"></div>    
+                   </div>              
+                  </div>
+                  
+                   					
+                  <div class="progress_bar">
+			               <div class="progress_bar_field_holder">
+                   <div class="progress_bar_title">Responsive design</div>               
+                  <div class="progress_bar_field_perecent" style="width:75%;"></div>    
+                   </div>              
+                  </div> 
+                    					
+                  <div class="progress_bar">
+			               <div class="progress_bar_field_holder">
+                   <div class="progress_bar_title">Photoshop</div>               
+                  <div class="progress_bar_field_perecent" style="width:75%;"></div>    
+                   </div>              
+                  </div>
+                </div>
+                </div>
+                <div class="one_third">
+				<div class="service-item">
+                    <img class="block" src="images/icon_external_03.png" alt="" />
+                    <h4 class="service-item-title">Web.</h4>
+                    <p class="service-item-content">
+                    We build websites, web apps or anything web-related you may need.
+                      </p>
+                      <br>
+                     <div class="progress_bar">
+			   <div class="progress_bar_field_holder">
+               <div class="progress_bar_title">HTML/CSS</div>               
+               <div class="progress_bar_field_perecent" style="width:75%;"></div>    
+               </div>              
+               </div>
+			   
+			   <div class="progress_bar">
+			   <div class="progress_bar_field_holder">
+               <div class="progress_bar_title">PHP</div>               
+               <div class="progress_bar_field_perecent" style="width:75%;"></div>    
+               </div>              
+               </div> 
+          <div class="progress_bar">
+			   <div class="progress_bar_field_holder">
+               <div class="progress_bar_title">javascript</div>               
+               <div class="progress_bar_field_perecent" style="width:60%;"></div>    
+               </div>              
+               </div> 
+           <div class="progress_bar">
+			   <div class="progress_bar_field_holder">
+               <div class="progress_bar_title">wordpress</div>               
+               <div class="progress_bar_field_perecent" style="width:80%;"></div>    
+               </div>              
+               </div>
+            <div class="progress_bar">
+			   <div class="progress_bar_field_holder">
+               <div class="progress_bar_title">Joomla</div>               
+               <div class="progress_bar_field_perecent" style="width:55%;"></div>    
+               </div>              
+               </div>                  
+                  
+                </div>
+                </div>
+                <div class="one_third last">
+                    <div class="service-item">
+					<img class="block" src="images/service_icon_02.png" alt="" />				
+                    <h4 class="service-item-title">Mobile.</h4>
+                    <p class="service-item-content">
+                   We build mobile apps.
+                    </p>
+                    <br>
+               <div class="progress_bar">
+			               <div class="progress_bar_field_holder">
+                   <div class="progress_bar_title">IOS</div>               
+                  <div class="progress_bar_field_perecent" style="width:75%;"></div>    
+                   </div>              
+                  </div>
+                   
+               <div class="progress_bar">
+			               <div class="progress_bar_field_holder">
+                   <div class="progress_bar_title">Android</div>               
+                  <div class="progress_bar_field_perecent" style="width:75%;"></div>    
+                   </div>              
+                  </div> 
+            
+                </div>
+                </div>
+                <div class="clear"></div>					
+            </div>
+            <div class="full-width top-150 bottom-100">
+			<img src="images/service_graphic_01.png" alt="" />
+            </div>
+            <div class="clear"></div>	
+        </div>
+       
+
+        <!--Portfolio-->
+        <div id="portfolio" class="clear portfolio section block">
+		   <div class="block content-960 center-relative">	
+          	<h2 class="section-title montserrat-font">OUR<br/>WORK</h2>
+			<div class="title-separator"></div>                     
+                <p class="info">Here are some of our web and mobile projects. Some of them are websites 
+                or larger-scale projects such as web apps or startups.
+                </p>
+				<p class="info bottom-150"> No matter the kind of
+                the project, they are all built with the <b>latest development techniques</b>, <b> design trends </b> and <b>love.</b></p>         				             
+			 </div>
+		<div class="full-width">
+		<div id="options">
+		<ul id="filters" class="option-set clearfix center-text montserrat-font" data-option-key="filter">
+			<li><a href="#filter" data-option-value="*" class="selected">ALL</a></li>
+			<li><a href="#filter" data-option-value=".logos">WEBSITES</a></li>
+			<li><a href="#filter" data-option-value=".photos">WEB APPS/STARTUPS</a></li>
+			<li><a href="#filter" data-option-value=".video">MOBILE APPS</a></li>
+			<li><a href="#filter" data-option-value=".whatever">ESHOPS</a></li>
+			<!--<li><a href="#filter" data-option-value=".personal">PERSONAL</a></li> -->
+		</ul>
+		</div>              
+		
+		<div id="container" class="clickable clearfix">  
+			
+			<div class="element photos logos" >
+				<img src="images/portfolio/thumb/ptf_thumb_01.jpg" alt="" />
+				<a class="preview absolute shadow" href="http://www.dominostyleapp.com/" target="_blank" >
+					<span class="work_item_text">DOMINOSTYLE</span>
+				</a>
+			</div>
+       
+			<div class="element photos logos">
+				<img src="images/portfolio/thumb/ptf_thumb_02.jpg" alt="" />
+			<a class="preview absolute shadow" href="http://susurrus.io/" target="_blank">
+	 <span class="work_item_text">SUSURRUS</span>
+	 </a>	
+    </div>	
+	
+	<div class="element logos">
+     <img src="images/portfolio/thumb/ptf_thumb_03.jpg" alt="" />
+				<a class="preview absolute shadow" href="http://glivingconstructions.com/" target="_blank">
+ <span class="work_item_text">GLIVING</span>
+	 </a>	
+    </div>
+    
+    <div class="element logos">
+	<img src="images/portfolio/thumb/ptf_thumb_04.jpg" alt="" />  
+       <a class="preview absolute shadow" href="https://www.behance.net/gallery/20293813/Boroumegr-Proposal" target="_blank">
+	   <span class="work_item_text">NGO WEBSITE</span>
+	   </a>
+    </div>
+       
+    <div class="element whatever logos">
+	<img src="images/portfolio/thumb/ptf_thumb_05.jpg" alt="" />
+  			<a class="preview absolute shadow" href="http://joy.com.gr/" target="_blank">
+  <span class="work_item_text">JOY WHOLESALE</span>
+	  </a>
+    </div>
+         
+    <div class="element logos">
+	<img src="images/portfolio/thumb/ptf_thumb_06.jpg" alt="" />
+       <a class="preview absolute shadow" href="http://act-theater.gr/" target="_blank">
+	   <span class="work_item_text">ACT THEATRE</span>
+	   </a>                
+    </div>
+	     
+    <div class="element logos">
+	<img src="images/portfolio/thumb/ptf_thumb_07.jpg" alt="" />
+       <a class="preview absolute shadow" href="http://aek24hours.gr/wp/" target="_blank">
+	   <span class="work_item_text">AEK24HOURS</span>
+	   </a>
+    </div>
+         
+    <div class="element video">
+     <img src="images/portfolio/thumb/ptf_thumb_08.jpg" alt="" />
+	  <a class="preview absolute shadow" href="https://play.google.com/store/apps/details?id=com.brainbowdevelopment.math.mobile" target="_blank">
+	 <span class="work_item_text">MATH MOBILE ANDROID</span>
+	 </a>	
+    </div>
+         
+	  <div class="element video">
+     <img src="images/portfolio/thumb/ptf_thumb_08.jpg" alt="" />
+	  <a class="preview absolute shadow" href="http://www.windowsphone.com/el-gr/store/app/math-mobile/4e3fa2d2-cf5e-4fca-a17f-0a58437ae31b" target="_blank">
+	 <span class="work_item_text">MATH MOBILE WINDOWS PHONE</span>
+	 </a>	
+    </div>
+  
+	  <div class="element video">
+	  <img src="images/portfolio/thumb/ptf_thumb_09.jpg" alt="" />
+       <a class="preview absolute shadow" href="https://play.google.com/store/apps/details?id=com.sociallgreen_android_alpha" target="_blank">
+	   <span class="work_item_text">SOCIALLGREEN</span>
+	   </a>
+    </div>
+		  
+   </div>			                        
+        </div> 
+            <div class="clear"></div>
+        </div>            
+
+	 <!--About-->
+        <div id="about" class="clear about section block">
+		<div class="block content-960 center-relative">	
+            <h2 class="section-title montserrat-font">ABOUT<br/>COMPANY</h2>
+			<div class="title-separator"></div>                     
+                <p class="info">Brainbow is a team of 4 young computer engineers.</p>		
+				<p class="info">We have been colleagues and friends for many years and during the last 3 years we have worked in many tech projects.</p>     												
+				
+				<div class="clear"></div>
+				
+                <div class="one_fourth bottom-0 top-50">		
+					<div class="member-holder">				
+						<div class="member-name center-text">
+						<h4>Anagnostopoulos Ioannis</h4>
+                        <div class="team-position">Mobile developer/ Business</div>	
+						</div> 
+            
+             
+						<div class="member-separator block"></div>
+
+                        <div class="team-social center-text">
+                            <a href="https://twitter.com/@GiannisAnagno1" target="_blank" ><img src="images/twitter_icon.png" alt=""/></a>
+                             <a href="https://www.linkedin.com/in/ioannisanagnostopoulos" target="_blank"><img src="images/vimeo_icon.png" alt="" /></a>
+                        </div>
+                          
+						<div class="member-image-holder relative top-70">
+						<img src="images/about_profile_01.png" alt=""/>						
+						<img class="coloured absolute" src="images/about_profile_01a.png" alt=""/>						
+						</div>	
+					</div>	
+                 </div>	
+            
+              <div class="one_fourth bottom-0 top-50">		
+					<div class="member-holder">				
+						<div class="member-name center-text">
+						<h4>Rodis<br>Dennis</h4>
+                        <div class="team-position">Back end developer</div>
+                      		
+						</div>
+						<div class="member-separator block"></div>
+                        <div class="team-social center-text">
+                           <a href="https://twitter.com/@dencorg" target="_blank" ><img src="images/twitter_icon.png" alt="" /></a>
+                             <a href="https://www.linkedin.com/in/dennisrodis" target="_blank"><img src="images/vimeo_icon.png" alt="" /></a>
+                        </div>
+						<div class="member-image-holder relative top-70">
+						<img src="images/about_profile_03.png" alt=""/>						
+						<img class="coloured absolute" src="images/about_profile_03a.png" alt=""/>						
+						</div>	
+					</div>	
+                 </div>	     
+						
+                <div class="one_fourth bottom-0 top-50">
+				<div class="member-holder">
+						<div class="member-name center-text">
+						<h4>Stoumpou<br>Lina</h4>
+                        <div class="team-position">Front end developer</div>
+                        	
+						</div>
+						<div class="member-separator block"></div>
+                        <div class="team-social center-text">
+                            <a href="https://twitter.com/@LinaStoumpou" target="_blank"><img src="images/twitter_icon.png" alt="" /></a>
+                             <a href="https://www.linkedin.com/in/stavroulastoumpou" target="_blank"><img src="images/vimeo_icon.png" alt="" /></a>
+                        </div>
+						
+					<div class="member-image-holder relative top-70">					
+						<img src="images/about_profile_04.png" alt=""/>						
+						<img class="coloured absolute" src="images/about_profile_04a.png" alt=""/>				
+					</div>		
+                  </div>		
+                  </div>		
+				
+                <div class="one_fourth last bottom-0 top-50">  
+				<div class="member-holder">					
+						<div class="member-name center-text">
+						<h4>Tsaggas <br>Panagiotis</h4>
+                        <div class="team-position">Mobile developer/ PR</div>		
+						</div>
+						<div class="member-separator block"></div>
+                        <div class="team-social center-text">
+                            <a href="https://twitter.com/@PTsaggas" target="_blank"><img src="images/twitter_icon.png" alt="" /></a>
+                             <a href="https://www.linkedin.com/in/panagiotistsaggas" target="_blank"><img src="images/vimeo_icon.png" alt="" /></a>
+                        </div>
+						<div class="member-image-holder relative top-70">
+							<img src="images/about_profile_02.png" alt=""/>						
+						<img class="coloured absolute" src="images/about_profile_02a.png" alt=""/>												
+						</div>
+					</div>
+					</div>
+
+					<div class="clear"></div>		
+					</div>
+          
+          
+          	
+					<div class="full_width">
+					<div class="about_slider_background">
+					<div class="testimonial_slider_holder slider_holder">
+					<div class="testimonial-top-line"></div>
+                      <ul id="testimonial" class="slides testimonial">                          
+                            <li>
+		
+                                <div class="right testimonial-content">
+								<p class="testimonial-text white-text">
+							  Design is not just what it looks like and feels like. Design is how it works.
+              	</p>
+								<p class="testimonial-author top-30 white-text">Steve Jobs</p>
+								</div>
+								<div class="clear"></div>								
+                            </li>
+							<li>
+
+                                <div class="right testimonial-content">
+								<p class="testimonial-text white-text">
+                Art without engineering is dreaming. Engineering without art is calculating.
+								</p>
+								<p class="testimonial-author top-30 white-text">Steven Roberts</p>
+								</div>
+								<div class="clear"></div>		
+                            </li>
+                            
+                            <li>
+                <div class="right testimonial-content">
+								<p class="testimonial-text white-text">
+                The only way to do great work is to love what you do.
+								</p>
+								<p class="testimonial-author top-30 white-text">Steve Jobs</p>
+								</div>
+								<div class="clear"></div>		
+                            </li>		
+                        </ul>
+                        <div id="testimonial_pager" class="carousel_pagination left"></div>
+						<div class="clear"></div>
+                    </div>
+                    </div>	
+				<!--	<div class="featured_work_image_slider_holder list_carousel slider_holder">
+                    <ul id="featured_work_image_slider" class="gallery image_slider">
+                        <li>
+                        <img src="images/work/work_small_03.jpg" alt="" />	
+                        <a class="preview absolute shadow" href="images/work/work_large_03.jpg" data-rel="prettyPhoto[gallery1]"> 
+						<span class="work_item_text">PSD MOCKUP</span>
+						</a>   					
+                        </li>		
+                        <li>
+                        <img src="images/work/work_small_04.jpg" alt="" />	
+                        <a class="preview absolute shadow" href="images/work/work_large_04.jpg" data-rel="prettyPhoto[gallery1]"> 
+						<span class="work_item_text">CORPORATE ID</span>
+						</a>                           
+                        </li>	
+                        <li>
+                        <img src="images/work/work_small_05.jpg" alt="" />	
+                        <a class="preview absolute shadow" href="images/work/work_large_05.jpg" data-rel="prettyPhoto[gallery1]"> 
+						<span class="work_item_text">LOGO</span>
+						</a>   
+                        </li>
+                        <li>							
+						<img src="images/work/work_small_01.jpg" alt="" />	
+                        <a class="preview absolute shadow" href="images/work/work_large_01.jpg" data-rel="prettyPhoto[gallery1]"> 
+						<span class="work_item_text">DESIGN</span>
+						</a>                         							
+                        </li>
+                        <li>
+                        <img src="images/work/work_small_02.jpg" alt="" />	
+                        <a class="preview absolute shadow" href="images/work/work_large_02.jpg" data-rel="prettyPhoto[gallery1]"> 
+						<span class="work_item_text">PHOTO BOOK</span>
+						</a>   						
+                        </li>						
+                    </ul>
+                    <div class="clear"></div>
+                    <a id="featured_work_prev" class="prev" href="#"></a>
+                    <a id="featured_work_next" class="next" href="#"></a>
+                </div>
+                <div class="clear"></div>					
+                </div>                				
+                </div>                				
+		
+      
+
+	  <!--Blog
+        <div id="blog" class="clear blog section block">	
+            <div class="block content-960 center-relative">
+              
+			<h2 class="section-title montserrat-font">LATESTS<br/>NEWS</h2>
+			<div class="title-separator"></div>                  
+                <p class="info">Etiam luctus turpis sed magna pellentesque lobortis vestibulum.</p>
+				<p class="info">Fusce ut mi at sem dignissim aliquet nunc leo tellus. Etiam luctus turpis sed.</p>     		
+			  </div>
+			  <div class="full_width top-80">
+				<div class="blog-holder">
+				
+				<div class="blog-item-holder">
+				<div class="block content-960 center-relative">
+				<p class="blog-title montserrat-font"><a href="single.html">PELLENTESQUE PORTA CONSECTETUR URNA, NON PORTA NEQUE ALIQUET IN</a></p>
+				<ul class="date-author-likes-holder"><li class="date">September 2014</li><li class="author">Peter Johanson</li><li class="likes"><span title="I like this article" class="qtip like"></span> 324</li></ul>
+				</div>
+				</div>
+				
+				<div class="blog-item-holder">
+				<div class="block content-960 center-relative">
+				<p class="blog-title montserrat-font"><a href="single.html">QUISQUE BLANDIT METUS ET LECTUS PHARETRA SCELERISQUE</a></p>
+				<ul class="date-author-likes-holder"><li class="date">September 2014</li><li class="author">John Barkley</li><li class="likes"><span title="I like this article" class="qtip like"></span> 24</li></ul>
+				</div>
+				</div>
+				
+				<div class="blog-item-holder">
+				<div class="block content-960 center-relative">
+				<p class="blog-title montserrat-font"><a href="single.html">NULLAM NON LEO EGET ANTE CONSECTETUR LUCTUS IN UT SEM</a></p>
+				<ul class="date-author-likes-holder"><li class="date">September 2014</li><li class="author">Michael Jackobs</li><li class="likes"><span title="I like this article" class="qtip like"></span> 58</li></ul>
+				</div>
+				</div>
+				
+				<div class="blog-item-holder">
+				<div class="block content-960 center-relative">
+				<p class="blog-title montserrat-font"><a href="single.html">CRAS PRETIUM ODIO PURUS, NON DIGNISSIM AUGUE ULTRICES SOLLICITUDIN</a></p>
+				<ul class="date-author-likes-holder"><li class="date">September 2014</li><li class="author">Michael Jackobs</li><li class="likes"><span title="I like this article" class="qtip like"></span> 58</li></ul>
+				</div>
+				</div>
+				
+				<div class="blog-item-holder">
+				<div class="block content-960 center-relative">
+				<p class="blog-title montserrat-font"><a href="single.html">SUSPENDISSE SEMPER ELEMENTUM ERAT, EGET BIBENDUM TORTOR</a></p>
+				<ul class="date-author-likes-holder"><li class="date">September 2014</li><li class="author">Michael Jackobs</li><li class="likes"><p title="I like this article" class="qtip like"></p> 58</li></ul>
+				</div>
+				</div>
+				
+				</div>	
+				<div class="block content-960 center-relative">
+				<div class="top-50">
+				<a href="#" class="button green slow-scroll">Load More</a>
+				</div>				
+				</div>				
+			  </div>	
+			  <div class="clear"></div>	
+        </div>
+
+       
+        <!--Contact-->
+        <div id="contact" class="clear contact section block">
+            <div class="block content-960 center-relative">
+			<h2 class="section-title montserrat-font">CONTACT</h2>
+			<div class="title-separator"></div>
+                <div class="one_half">	                     
+                <p class="contact-title-info bottom-10">Brainbow Development</p>     		
+				<p class="contact-content-info">Contact us to describe anything digital you want to build.<br><br> We pay contribute to your project overally as <b>partners</b>, <b>or</b> just design and develop the technical part of it as <b>developers</b>.</p>
+				<br/>
+	                <div class="contact-form">                
+                        <ul id="contact-form">
+                            <li class="name-holder">
+                                <input type="text" id="name" />
+                            </li>
+                            <li class="email-holder">
+                                <input type="text" id="contact-email" />
+                            </li>
+                            <li class="website-holder">
+                                <input type="text" id="website" />
+                            </li>
+                            <li class="message-holder">
+                                <textarea rows="7" cols="50" id="message"></textarea>
+                            </li>
+                            <li class="last-child">
+                                <a class="button black" onClick="SendMail()" id="send-message">Send</a>   
+                            </li>
+                        </ul>
+                        <div class="clear"></div>					
+                    </div>
+                    <div class="clear"></div>					
+                    <div class="sending-message-status-holder"><span id="sending-message-status">&nbsp;</span></div>
+                </div>            
+                <div class="clear"></div>
+            </div>	
+        </div>
+
+        <!--Footer-->
+        <div class="clear center-text footer">		
+		<div class="scroll-top-holder relative block content-960 center-relative">
+		<div class="scroll-top absolute"></div>
+		</div>		
+		<div class="footer-content center-text block content-960 center-relative">
+		<img class="bottom-100" src="images/footer_logo.png" alt="" />
+		<div class="title-separator"></div>	
+		<div class="big-social center-text top-100">
+		<a href="https://twitter.com/brainbowdevelop" target="_blank"><img src="images/social_twitter.png" alt="" /></a>		
+		<a href="https://www.facebook.com/Brainbowdevelopment" target="_blank"><img src="images/social_facebook.png" alt="" /></a>
+		</div>		
+        </div>	
+		<div class="footer-copyright center-text">Crafted with <span><img src="images/footer_heart.png" alt=""></span> by Brainbow Development</div>
+        </div>	  
+
+ <!--Load JavaScript-->
+        <script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>	
+        <script type="text/javascript" src="js/jquery.isotope.min.js"></script>				
+        <script type="text/javascript" src="js/accordion-tabs.min.js"></script>				
+		<script type="text/javascript" src="js/portfolio.js"></script>		
+        <script type="text/javascript" src="js/supersized.3.2.7.js"></script>		
+        <script type="text/javascript" src="js/jquery.sticky.js"></script>			       
+        <script type="text/javascript" src="js/jquery.dryMenu.js"></script>	
+        <script type="text/javascript" src="js/small-menu.js"></script>
+        <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+        <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+        <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>        
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/jquery.myHint.js"></script>	        
+        <script type="text/javascript" src="js/jquery.vticker-min.js"></script>
+       <!-- <script type="text/javascript" src="php/scriptsData.php"></script>  -->
+        <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>		
+        <script type="text/javascript" src="js/main.js"></script>	
+      <!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=10069316; 
+var sc_invisible=1; 
+var sc_security="12e9d117"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/10069316/0/12e9d117/1/"
+alt="web analytics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->  	
+    </body>
+</html>
